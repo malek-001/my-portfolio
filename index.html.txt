@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Malek Muhib - Web Developer</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI', sans-serif}
+body{background:#0a0a0a;color:white}
+nav{padding:20px 8%;display:flex;justify-content:space-between;align-items:center}
+nav h2{color:#00ff88}
+nav a{color:white;text-decoration:none;margin-left:20px}
+.hero{padding:80px 8%;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.hero h1{font-size:50px;line-height:1.2}
+.hero h1 span{color:#00ff88}
+.hero p{color:#aaa;margin:20px 0;max-width:500px;font-size:18px}
+.btn{display:inline-block;background:#00ff88;color:black;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:bold;margin-top:10px}
+section{padding:60px 8%}
+.skills{display:flex;flex-wrap:wrap;gap:15px;margin-top:20px}
+.skill{background:#1a1a1a;padding:10px 20px;border-radius:20px;border:1px solid #333}
+.card{background:#151515;padding:25px;border-radius:15px;margin-top:20px;border:1px solid #222}
+footer{text-align:center;padding:30px;color:#777;border-top:1px solid #222;margin-top:40px}
+</style>
+</head>
+<body>
+<nav>
+<h2>MALEK.</h2>
+<div><a href="#about">About</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div>
+</nav>
+<div class="hero">
+<div>
+<h1>Hi, I'm<br><span>Malek Muhib</span><br>Aspiring Web Developer</h1>
+<p>I build responsive websites using HTML, CSS, JavaScript. Currently looking for a Remote Internship to kickstart my career.</p>
+<a href="#contact" class="btn">Hire Me</a>
+<a href="https://github.com/malek-001" target="_blank" style="margin-left:15px;color:white">GitHub</a>
+</div>
+</div>
+<section id="about">
+<h2 style="color:#00ff88">About Me</h2>
+<div class="card">
+<p>I am a self-taught web developer from India. I love to convert ideas into real websites. I have learned Git & GitHub and now building projects daily to improve my skills. I am dedicated, fast learner and ready for internship.</p>
+</div>
+<div class="skills">
+<div class="skill">HTML5</div><div class="skill">CSS3</div><div class="skill">JavaScript</div><div class="skill">Git & GitHub</div><div class="skill">Responsive Design</div>
+</div>
+</section>
+<section id="projects">
+<h2 style="color:#00ff88">Projects</h2>
+<div class="card">
+<h3>Personal Portfolio Website</h3>
+<p style="color:#aaa;margin:10px 0">My first live portfolio built and deployed on GitHub Pages.</p>
+<p><b>Live:</b> malek-001.github.io/my-portfolio/ | <b>Code:</b> github.com/malek-001/my-portfolio</p>
+</div>
+</section>
+<section id="contact">
+<h2 style="color:#00ff88">Contact Me</h2>
+<div class="card">
+<p>Email: muhibhusain7@gmail.com</p>
+<p style="margin-top:10px">GitHub: github.com/malek-001</p>
+<p style="margin-top:20px;color:#aaa">Open for Remote Internship / Freelance Work</p>
+</div>
+</section>
+<footer>© 2026 Malek Muhib - Built with ❤️</footer>
+</body>
+</html>
